@@ -21,6 +21,7 @@ function App() {
 
 const [result,setResult] = useState(0);
 
+
   return (
     <div className="container">
       <Logo />
@@ -29,11 +30,11 @@ const [result,setResult] = useState(0);
       
       
       <div className="App">
-        <div class = "col-1">
+        <div className = "col-1">
         <Specials/>
         <Numbers/>
         </div>
-        <div class = "col-2">
+        <div className = "col-2">
        <Operators/>
        </div>
        

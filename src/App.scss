@@ -18,7 +18,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     padding-right: 8%;
-    font-size: 5.0rem;
+    font-size: 3.0rem;
     position: relative;
     left:10%;
   }
@@ -61,7 +61,7 @@
   
 
 .numButtons {
-    background-color: rgb(55, 3, 199);
+    background-color: rgb(9, 67, 119);
     border: none;
     color: white;
     padding: 25px;
@@ -76,12 +76,13 @@
       &:nth-child(10){
           width:50%;
           border-radius: 30%;
-          margin-right:12%;
+          margin-right:11%;
       }
+     
   }
 
   .specButtons{
-    background-color: rgb(55, 3, 199);
+    
     border: none;
     color: white;
     padding: 27px;
@@ -90,22 +91,30 @@
     margin: 5px 8px ;
     margin-left: 2%;
     border-radius: 50%;
+    background-color: rgb(11, 93, 155);
    
   }
-
+ 
   .opButtons{
     background-color: rgb(55, 3, 199);
     border: none;
     color: white;
-    padding: 33px;
+    padding: 31px;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 2rem;
    margin-bottom:14%;
    height:10.5vh;
   
    
    border-radius: 50%;
+
+   &:nth-child(4){
+padding:28px;
+   }
    
+   &:nth-child(5){
+    padding:28px;
+       }
   }
 
 
