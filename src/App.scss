@@ -1,0 +1,123 @@
+.container {
+    background-color: #c00025;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    border: 2px solid grey;
+    padding-bottom: 25px;
+}
+.display {
+    margin-top: 25px;
+    height: 80px;
+    width: 300px;
+    border-radius: 50px;
+    color: white;
+    background-color: #322c2d;
+    box-shadow: 1px 1px #322c2d;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 8%;
+    font-size: 3.0rem;
+    position: relative;
+    left:10%;
+  }
+
+  
+
+.App{
+    display: flex;
+   
+
+    
+    
+}
+
+.col-1{
+    width:70%;
+    margin-left: 5%;
+}
+
+.col-2{
+    width:25%;
+    margin-top:3%;
+    padding-top: 1%;
+    
+    
+}
+
+.spec{
+    display:flex;
+   margin-top:4%;
+   width:73%;
+}
+
+
+
+
+
+
+
+  
+
+.numButtons {
+    background-color: rgb(9, 67, 119);
+    border: none;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 8px 5px;
+    width:28%;
+    border-radius: 50%;
+  }
+
+  .numButtons{
+      &:nth-child(10){
+          width:50%;
+          border-radius: 30%;
+          margin-right:11%;
+      }
+     
+  }
+
+  .specButtons{
+    
+    border: none;
+    color: white;
+    padding: 27px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 5px 8px ;
+    margin-left: 2%;
+    border-radius: 50%;
+    background-color: rgb(11, 93, 155);
+   
+  }
+ 
+  .opButtons{
+    background-color: rgb(55, 3, 199);
+    border: none;
+    color: white;
+    padding: 31px;
+    text-align: center;
+    font-size: 2rem;
+   margin-bottom:14%;
+   height:10.5vh;
+  
+   
+   border-radius: 50%;
+
+   &:nth-child(4){
+padding:28px;
+   }
+   
+   &:nth-child(5){
+    padding:28px;
+       }
+  }
+
+
+
+  
+
